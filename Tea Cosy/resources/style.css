@@ -1,0 +1,134 @@
+body {background-color: black;
+   font-size: 22px
+   color: seashell;
+   opacity: 0.9;
+   margin: auto;
+    width: 100%;}
+
+
+
+* {background-color: black;
+   opacity: 0.9;
+   text-align: center;
+    margin: 0;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;}
+
+.header {font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        border-bottom: 2px solid seashell;
+        height: 69px;
+        z-index: 1;
+        opacity: 0.9;}
+
+.logo {display: flex;
+       align-items: center;
+       flex-grow: 1;
+       padding-left: 10px;
+       }
+
+.logo img {height: 50px;}
+
+.nav {padding-right: 40px;}
+
+nav span {display: inline-block;
+           padding: 20px 10px;}
+
+a {color: seashell;}
+
+
+.content {display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;}
+
+#mission {padding-top: 70px;}
+
+
+#mission_banner {width: 1200px;
+                 height: 700px;
+                 background-image: url(./images/background.jpg);
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: space-around;}
+
+
+
+.banner {padding: 10px 0;
+         display: flex;
+         flex-flow: column;
+         justify-content: space-between;}
+
+
+h2 {font-size: 32px;
+    padding-bottom: 20px;}
+
+
+
+#featuredtea {padding: 70px;
+     width: 1060px;}
+
+
+
+
+.gallery {display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: center;}
+
+.gallery_item {display: flex;
+               margin: 15px;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              list-style: none;}
+
+.preview {height: 200px;
+          width: 300px;
+          margin-bottom: 10px;}
+
+
+
+#locations {padding: 70px;}
+
+#locations_banner {width: 1200px;
+                   max-height: 500px;
+                   display: flex;
+                   justify-content: center;
+                   background-image: url(./images/location.jpg);
+                   background-position: center;
+                   background-size: cover;
+                   flex-wrap: wrap;
+                   padding-bottom: 100px;
+                   padding-top: 53px;}
+
+
+#locations_title {min-width: 1200px;
+                  background: none;
+                  padding: 0;
+                  margin-bottom: 15px;
+                line-height: 32px;}
+
+
+.location {width: 300px;
+           height: 300px;
+           opacity: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 0 20px;}
+
+.contacts {display: flex;
+           flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 200px;}
+
+.copyright  {margin: 35px 20px;
+            text-align: left;: left;}
